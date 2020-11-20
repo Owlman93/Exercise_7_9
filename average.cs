@@ -14,7 +14,7 @@ public class Average
 		Console.Write("Insert a mark: ");
 		s=Console.ReadLine();
 		
-		while(s!="end")
+		while(s != "end")
 		{ 
 			n2=Convert.ToDouble(s);
 			counter++;   
