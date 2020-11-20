@@ -8,13 +8,13 @@ public class Average
 {
 	public static void Main()
 	{
-		double n1=0, n2, counter=0, result;
-		string s;
+		Double n1=0, n2, counter=0, result;
+		String s;
 
 		Console.Write("Insert a mark: ");
 		s=Console.ReadLine();
 		
-		while(s != "end")
+		While(s != "end")
 		{ 
 			n2=Convert.ToDouble(s);
 			counter++;   
@@ -23,7 +23,7 @@ public class Average
 			Console.Write("Insert a mark: ");
 			s=Console.ReadLine();
 		}
-		if(counter!=0)
+		If(counter!=0)
 		{
 			result = n1/counter;
 			Console.WriteLine("The average is {0}.",result);
