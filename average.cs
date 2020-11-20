@@ -1,3 +1,8 @@
+/*
+*(c) IES San Vicente 2020
+*
+*Program that calculates the average of a set of marks until the User types "end"
+*/
 using System;
 public class Average
 {
